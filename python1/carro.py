@@ -26,14 +26,14 @@ class Carro:
     def acelerar(self):
         if self.ligado:
             self.velocidade += 10
-            print("Carro acelerando para {}".format(self.velocidade))
+            print("Carro acelerando para {} km/h".format(self.velocidade))
         else:
             print("Carro desligado")
     
     def desacelerar(self):
         if self.ligado:
             self.velocidade -= 10
-            print("Carro desacelerando para {}".format(self.velocidade))
+            print("Carro desacelerando para {} km/h".format(self.velocidade))
         else:
             print("Carro desligado")
 

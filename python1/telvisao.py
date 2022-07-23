@@ -38,7 +38,7 @@ class Televisao:
         
     def aumentar_volume(self):
         if self.ligada:
-            if volume >= self.volume_min and volume <= self.volume_max:
+            if self.volume >= self.volume_min and self.volume <= self.volume_max:
                 self.volume += 10
                 print("Volume aumentado para {}".format(volume))
             else:
@@ -48,10 +48,13 @@ class Televisao:
     
     def reduzir_volume(self):
         if self.ligada:
-            if volume >= self.volume_min and volume <= self.volume_max:
+            if self.volume >= self.volume_min and self.volume <= self.volume_max:
                 self.volume -= 10
                 print("Volume reduzido para {}".format(volume))
             else:
                 print("Volume inválido")
         else:
             print("Televisão desligada")
+
+    def __str__(self) --> str:
+        return f"Televisão: - ligada {self.ligada} - canal {self.canal} - volume {self.volume}"

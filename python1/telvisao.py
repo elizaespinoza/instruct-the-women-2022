@@ -40,7 +40,7 @@ class Televisao:
         if self.ligada:
             if self.volume >= self.volume_min and self.volume <= self.volume_max:
                 self.volume += 10
-                print("Volume aumentado para {}".format(volume))
+                print("Volume aumentado para {}".format(self.volume))
             else:
                 print("Volume inválido")
         else:
@@ -50,11 +50,22 @@ class Televisao:
         if self.ligada:
             if self.volume >= self.volume_min and self.volume <= self.volume_max:
                 self.volume -= 10
-                print("Volume reduzido para {}".format(volume))
+                print("Volume reduzido para {}".format(self.volume))
             else:
                 print("Volume inválido")
         else:
             print("Televisão desligada")
 
-    def __str__(self) --> str:
+    def __str__(self):
         return f"Televisão: - ligada {self.ligada} - canal {self.canal} - volume {self.volume}"
+
+
+'''
+Criando instancias da classe Televisao
+'''
+tv_sala = Televisao()
+tv_quarto = Televisao()
+
+tv_sala.ligar()
+print('tv_sala está ligada? {}'.format(tv_sala.ligada))
+print('tv_quarto está ligada? {}'.format(tv_quarto.ligada))

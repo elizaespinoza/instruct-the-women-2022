@@ -56,7 +56,7 @@ class Televisao:
         else:
             print("Televisão desligada")
 
-    def __str__(self):
+    def __str__(self) -> str:
         return f"Televisão: - ligada {self.ligada} - canal {self.canal} - volume {self.volume}"
 
 

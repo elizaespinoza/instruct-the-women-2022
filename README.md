@@ -7,12 +7,17 @@ Anotações das aulas da mentoria de python backend da @WoMakersCode com a @Inst
 - O [*Visual Studio Code Tips and Tricks*](https://code.visualstudio.com/docs/getstarted/tips-and-tricks?WT.mc_id=devto-blog-gllemos), parte da documentação oficial do VS Code.
 - Curso gratuito de [*Dicas e Truques com Visual Studio Code*](https://maismulheres.tech/courses/enrolled/1345414) da #MaisMulheresTech, criada pela WoMakersCode.
 - Tutorial [*Advanced Visual Studio Code for Python Developers*](https://realpython.com/advanced-visual-studio-code-python/#setting-up-pylance) do Real Python.
+- Projeto para experimentar a extensão [VS Code Remote - Containers](https://github.com/microsoft/vscode-remote-try-python) .
+    > *Obs: Vai precisar de instalar Docker.*
+- Se você é estudante de ensino superior, parabéns! Você tem acceso ao GitHub Pro, acesse pelo [GitHub Student Developer Pack](https://education.github.com/pack) e ao [GitHub Copilot](https://www.youtube.com/watch?v=EGiXsfyBST8)! 
+    > O Copilot é uma IA que traz varias suggestões para o teu código. *Psst: O GitHub Copilot está disponível para o VS Code.*
 
 ## 🤹 Orientação a Objetos
 - Representações do mundo real
 - Possui dos componentes
     1. Propiedades
     2. Comportamentos (ações, ,mêtodos)
+> Leitura recomendada: [*O que é Programação Orientada a Objetos*](https://algoritmosempython.com.br/cursos/programacao-python/classes-objetos/) do blog 'Algoritmos em Python'.
 
 ### Classes
 - Definidas com Class <NomeDaClasse>

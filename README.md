@@ -1,7 +1,14 @@
 # Aula 1: Instruct the Women 
-Anotações das aulas de mentoria de python backend da @WoMakersCode com a @Instruct.
+Anotações das aulas da mentoria de python backend da @WoMakersCode com a @Instruct.
 
-## Orientação a Objetos
+## 🛸 Instalando e configurando o VS Code:
+- O [Coding Pack for Python](https://code.visualstudio.com/docs/python/coding-pack-python) ajuda a configurar rapidamente um ambiente de codificação Python com o Visual Studio Code. 
+    > Ele ajuda você a instalar um interpretador Python, O Visual Studio Code, as extensões que fornecem suporte para Python no Visual Studio Code e vários pacotes Python comuns e úteis.
+- O [*Visual Studio Code Tips and Tricks*](https://code.visualstudio.com/docs/getstarted/tips-and-tricks?WT.mc_id=devto-blog-gllemos), parte da documentação oficial do VS Code.
+- Curso gratuito de [*Dicas e Truques com Visual Studio Code*](https://maismulheres.tech/courses/enrolled/1345414) da #MaisMulheresTech, criada pela WoMakersCode.
+- Tutorial [*Advanced Visual Studio Code for Python Developers*](https://realpython.com/advanced-visual-studio-code-python/#setting-up-pylance) do Real Python.
+
+## 🤹 Orientação a Objetos
 - Representações do mundo real
 - Possui dos componentes
     1. Propiedades
@@ -15,12 +22,19 @@ Anotações das aulas de mentoria de python backend da @WoMakersCode com a @Inst
 - O self indica que a instância dessa classe está sendo considerada.
 - O codigo OOP tem dados de entrada o processamento e dados de saída.
 
-#### Exemplo: Modelando um estacionamento
+#### 🎯 Exercício: Modelando um estacionamento
 1. Estabelecer os atores: estacionamento, vaga, carro, moto
 2. Identificando as propiedades deles:
     - estacionamento: vagas (carro, moto), vagas livres (moto, carro)
     - vagas: livre ou não, tipo, id. Acoes: ocupar, desocupar
     - carro: placa
     - moto: placa
+> 📁 Meu resultado é o [carro.py](https://github.com/elizaespinoza/instruct-the-women-2022/blob/master/python1/carro.py)
 
-### Heranças
+## 📃 Licença
+Este projeto é disponibilizado com a licença MIT. Revise o arquivo [LICENSE](https://github.com/elizaespinoza/instruct-the-women-2022/blob/master/license) para ver os direitos e as limitações da licença.
+
+## 🙇‍♀️ Obrigada!
+- [WoMakersCode](https://womakerscode.org/instruct)
+- [Instruct](https://github.com/instruct-br)
+- [Isadora Ferrão](https://www.linkedin.com/in/isadora-ferrao/)

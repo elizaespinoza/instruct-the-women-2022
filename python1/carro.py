@@ -28,7 +28,7 @@ class Carro:
             print("Carro desligado")
 
     def __str__(self) -> str:
-        return f"Carro: - ligado {self.ligado} - cor {self.cor} - modelo {self.modelo} - velocidade {self.velocidade}"
+        return f"Carro: - ligado {self.ligado} - cor {self.cor} - modelo {self.modelo} - velocidade {self.velocidade} km/h"
     
 '''
 Criando instancias da classe Carro
@@ -43,5 +43,3 @@ print('carro_eliza andando: {}'.format(carro_eliza))
 carro_eliza.desacelerar()
 carro_eliza.desligar()
 print('carro_eliza parou: {}'.format(carro_eliza))
-    
-    

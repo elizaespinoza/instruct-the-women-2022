@@ -19,7 +19,7 @@ Anotações das aulas da mentoria de python backend da [WoMakersCode](https://wo
     2. Comportamentos (ações, mêtodos)
 > Leitura recomendada: [*O que é Programação Orientada a Objetos*](https://algoritmosempython.com.br/cursos/programacao-python/classes-objetos/) do blog 'Algoritmos em Python'.
 
-### Classes
+### 🧙 Classes
 - Definidas com `Class <NomeDaClasse>`.
 - Podemos ter várias instâncias dentro dela.
 - Uma instância pode ser uma concretização da classe.
@@ -34,7 +34,7 @@ Anotações das aulas da mentoria de python backend da [WoMakersCode](https://wo
     - vagas: livre ou não, tipo, id. Acoes: ocupar, desocupar
     - carro: placa
     - moto: placa
-> 📁 Veja o resultado no arquivo [carro.py](https://github.com/elizaespinoza/instruct-the-women-2022/blob/master/python1/carro.py)
+> Veja o resultado no arquivo 📁[carro.py](https://github.com/elizaespinoza/instruct-the-women-2022/blob/master/python1/carro.py)
 
 ## 📃 Licença
 Este projeto é disponibilizado com a licença MIT. Revise o arquivo [LICENSE](https://github.com/elizaespinoza/instruct-the-women-2022/blob/master/license) para ver os direitos e as limitações da licença.

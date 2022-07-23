@@ -69,3 +69,15 @@ tv_quarto = Televisao()
 tv_sala.ligar()
 print('tv_sala está ligada? {}'.format(tv_sala.ligada))
 print('tv_quarto está ligada? {}'.format(tv_quarto.ligada))
+
+for _ in range(3):
+    tv_sala.aumentar_volume()
+
+print('tv_sala volume: {}'.format(tv_sala.volume))
+print('tv_quarto volume: {}'.format(tv_quarto.volume))
+
+'''
+Imprimir o conteúdo do objeto
+'''
+print('tv_sala',tv_sala)
+print('tv_quarto',tv_quarto)

@@ -1,5 +1,5 @@
 # Aula 1: Instruct the Women 
-Anotações das aulas da mentoria de python backend da @WoMakersCode com a @Instruct.
+Anotações das aulas da mentoria de python backend da [WoMakersCode](https://womakerscode.org/instruct) com a [Instruct](https://github.com/instruct-br)
 
 ## 🛸 Instalando e configurando o VS Code:
 - O [Coding Pack for Python](https://code.visualstudio.com/docs/python/coding-pack-python) ajuda a configurar rapidamente um ambiente de codificação Python com o Visual Studio Code. 
@@ -16,14 +16,14 @@ Anotações das aulas da mentoria de python backend da @WoMakersCode com a @Inst
 - Representações do mundo real
 - Possui dos componentes
     1. Propiedades
-    2. Comportamentos (ações, ,mêtodos)
+    2. Comportamentos (ações, mêtodos)
 > Leitura recomendada: [*O que é Programação Orientada a Objetos*](https://algoritmosempython.com.br/cursos/programacao-python/classes-objetos/) do blog 'Algoritmos em Python'.
 
 ### Classes
-- Definidas com Class <NomeDaClasse>
+- Definidas com `Class <NomeDaClasse>`.
 - Podemos ter várias instâncias dentro dela.
 - Uma instância pode ser uma concretização da classe.
-- Toda classe tem um construtor def `__init__(self)`
+- Toda classe tem um construtor def `__init__(self)`.
 - O self indica que a instância dessa classe está sendo considerada.
 - O codigo OOP tem dados de entrada o processamento e dados de saída.
 
@@ -34,7 +34,7 @@ Anotações das aulas da mentoria de python backend da @WoMakersCode com a @Inst
     - vagas: livre ou não, tipo, id. Acoes: ocupar, desocupar
     - carro: placa
     - moto: placa
-> 📁 Meu resultado é o [carro.py](https://github.com/elizaespinoza/instruct-the-women-2022/blob/master/python1/carro.py)
+> 📁 Veja o resultado no arquivo [carro.py](https://github.com/elizaespinoza/instruct-the-women-2022/blob/master/python1/carro.py)
 
 ## 📃 Licença
 Este projeto é disponibilizado com a licença MIT. Revise o arquivo [LICENSE](https://github.com/elizaespinoza/instruct-the-women-2022/blob/master/license) para ver os direitos e as limitações da licença.

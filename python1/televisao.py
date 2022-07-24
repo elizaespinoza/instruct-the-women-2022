@@ -1,4 +1,13 @@
+ #!/usr/bin/python
+ # # -*- coding: utf-8 -*-
+
+import sys
+
+if sys.version_info[0] < 3:
+    raise Exception("This script must run in Python 3.9.10.")
+
 class Televisao:
+
     def __init__(self):
         self.ligada = False
         self.canal = 3

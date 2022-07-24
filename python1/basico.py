@@ -21,23 +21,24 @@
 - 'O último a entrar é o primeiro a sair'
 '''
 pilha = [1, 1, 2, 3, 5]
-pilha.append(13) #último a entrar
-pilha.pop() #é o primeiro a sair
+pilha.append(13)  # último a entrar
+pilha.pop()  # é o primeiro a sair
 
 '''
 # Fila
 - 'O primeiro a entrar é o primeiro a sair'
 '''
 fila = [1, 1, 2, 3, 5]
-fila.pop(0) #primeiro a sair
+fila.pop(0)  # primeiro a sair
 
 '''
 ## Tupla
 - Inmutável
 '''
-coordenadaA = (4,6)
-coordenadaB = (5,7)
-print('distancia entre A e B: {}'.format(abs(coordenadaA[0]-coordenadaB[0])+abs(coordenadaA[1]-coordenadaB[1])))
+coordenadaA = (4, 6)
+coordenadaB = (5, 7)
+print('distancia entre A e B: {}'.format(
+    abs(coordenadaA[0]-coordenadaB[0])+abs(coordenadaA[1]-coordenadaB[1])))
 
 '''
 # Listas

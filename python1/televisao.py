@@ -18,34 +18,39 @@ class Televisao:
         self.volume_max = 100
 
     def ligar(self):
+        """Liga a televisao, devolvendo True para o atributo ligada."""
         self.ligada = True
         print("Televisão ligada")
 
     def desligar(self):
+        """Desliga a televisao, devolvendo Fase para o atributo ligada."""
         self.ligada = False
         print("Televisão desligada")
 
-    def mudar_canal_para_cima(self, canal):
+    def mudar_canal_para_cima(self):
+        """Muda um canal para cima, respeitando o limite de 1 a 99 canais."""
         if self.ligada:
-            if canal >= self.canal_min and canal <= self.canal_max:
+            if self.canal >= self.canal_min and self.canal <= self.canal_max:
                 self.canal += 1
-                print("Canal mudado para {}".format(canal))
+                print("Canal mudado para {}".format(self.canal))
             else:
                 print("Canal inválido")
         else:
             print("Televisão desligada")
 
-    def mudar_canal_para_baixo(self, canal):
+    def mudar_canal_para_baixo(self):
+        """Muda um canal para baixo, respeitando o limite de 1 a 99 canais."""
         if self.ligada:
-            if canal >= self.canal_min and canal <= self.canal_max:
+            if self.canal >= self.canal_min and self.canal <= self.canal_max:
                 self.canal -= 1
-                print("Canal mudado para {}".format(canal))
+                print("Canal mudado para {}".format(self.canal))
             else:
                 print("Canal inválido")
         else:
             print("Televisão desligada")
 
     def aumentar_volume(self):
+        """Aumenta o volume em 10 decibels, respeitando o limite de 0 a 100 decibels."""
         if self.ligada:
             if self.volume >= self.volume_min and self.volume <= self.volume_max:
                 self.volume += 10
@@ -56,6 +61,7 @@ class Televisao:
             print("Televisão desligada")
 
     def reduzir_volume(self):
+        """Diminui o volume em 10 decibels, respeitando o limite de 0 a 100 decibels."""
         if self.ligada:
             if self.volume >= self.volume_min and self.volume <= self.volume_max:
                 self.volume -= 10

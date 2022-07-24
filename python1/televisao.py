@@ -79,5 +79,5 @@ print('tv_quarto volume: {}'.format(tv_quarto.volume))
 '''
 Imprimir o conteúdo do objeto
 '''
-print('tv_sala',tv_sala)
-print('tv_quarto',tv_quarto)
+print('tv_sala', tv_sala)
+print('tv_quarto', tv_quarto)

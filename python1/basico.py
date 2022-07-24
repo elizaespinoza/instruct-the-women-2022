@@ -33,8 +33,8 @@ fila.pop(0) #primeiro a sair
 ## Tupla
 - Inmutável
 '''
-coordenadaA = (4,6)
-coordenadaB = (5,7)
+coordenadaA = (4, 6)
+coordenadaB = (5, 7)
 print('distancia entre A e B: {}'.format(abs(coordenadaA[0]-coordenadaB[0])+abs(coordenadaA[1]-coordenadaB[1])))
 
 '''

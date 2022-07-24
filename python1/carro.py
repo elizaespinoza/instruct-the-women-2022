@@ -14,11 +14,11 @@ class Carro:
         self.cor = "branco"
         self.modelo = "Fusca"
         self.velocidade = 0
-    
+
     def ligar(self):
         self.ligado = True
         print("Carro ligado")
-    
+
     def desligar(self):
         self.ligado = False
         print("Carro desligado")
@@ -29,7 +29,7 @@ class Carro:
             print("Carro acelerando para {} km/h".format(self.velocidade))
         else:
             print("Carro desligado")
-    
+
     def desacelerar(self):
         if self.ligado:
             self.velocidade -= 10
@@ -39,7 +39,7 @@ class Carro:
 
     def __str__(self) -> str:
         return f"Carro: - ligado {self.ligado} - cor {self.cor} - modelo {self.modelo} - velocidade {self.velocidade} km/h"
-    
+
 '''
 Criando instancias da classe Carro
 '''

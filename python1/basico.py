@@ -1,4 +1,3 @@
-from numpy import intp
 
 '''
 # Hola mundo

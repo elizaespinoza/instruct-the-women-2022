@@ -9,6 +9,7 @@ Challenge 1
 '''
 
 class Carro:
+
     def __init__(self):
         self.ligado = False
         self.cor = "branco"
@@ -40,10 +41,10 @@ class Carro:
     def __str__(self) -> str:
         return f"Carro: - ligado {self.ligado} - cor {self.cor} - modelo {self.modelo} - velocidade {self.velocidade} km/h"
 
+
 '''
 Criando instancias da classe Carro
 '''
-
 carro_eliza = Carro()
 
 carro_eliza.ligar()

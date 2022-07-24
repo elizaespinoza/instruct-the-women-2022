@@ -1,11 +1,11 @@
 '''
-Challenge #1
-- Crie uma classe que modele o objeto 'Carro'
+Challenge 1
+- Crie uma classe que modele o objeto Carro
 - Um carro deve ter os seguintes atributos: ligado, cor, modelo, velocidade
 - Um carros deve ter os seguintes comportamentos: ligar/desligar, acelerar/frear
 - Crie uma intância da classe carro
-- Faça o carro 'andar' utilizando os metodos da classe
-- Faça o carro 'parar' utilizando os metodos da classe
+- Faça o carro andar utilizando os metodos da classe
+- Faça o carro parar utilizando os metodos da classe
 '''
 
 class Carro:

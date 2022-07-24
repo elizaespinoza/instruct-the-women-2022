@@ -11,11 +11,11 @@ class Televisao:
     def ligar(self):
         self.ligada = True
         print("Televisão ligada")
-    
+
     def desligar(self):
         self.ligada = False
         print("Televisão desligada")
-    
+
     def mudar_canal_para_cima(self, canal):
         if self.ligada:
             if canal >= self.canal_min and canal <= self.canal_max:
@@ -25,7 +25,7 @@ class Televisao:
                 print("Canal inválido")
         else:
             print("Televisão desligada")
-    
+
     def mudar_canal_para_baixo(self, canal):
         if self.ligada:
             if canal >= self.canal_min and canal <= self.canal_max:
@@ -35,7 +35,7 @@ class Televisao:
                 print("Canal inválido")
         else:
             print("Televisão desligada")
-        
+
     def aumentar_volume(self):
         if self.ligada:
             if self.volume >= self.volume_min and self.volume <= self.volume_max:
@@ -45,7 +45,7 @@ class Televisao:
                 print("Volume inválido")
         else:
             print("Televisão desligada")
-    
+
     def reduzir_volume(self):
         if self.ligada:
             if self.volume >= self.volume_min and self.volume <= self.volume_max:

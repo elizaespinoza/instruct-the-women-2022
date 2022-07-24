@@ -76,24 +76,24 @@ class Televisao:
         return f"Televisão: - ligada {self.ligada} - canal {self.canal} - volume {self.volume}"
 
 
-'''
+"""
 Criando instancias da classe Televisao
-'''
+"""
 tv_sala = Televisao()
 tv_quarto = Televisao()
 
 tv_sala.ligar()
-print('tv_sala está ligada? {}'.format(tv_sala.ligada))
-print('tv_quarto está ligada? {}'.format(tv_quarto.ligada))
+print(f"tv_sala está ligada? {tv_sala.ligada}")
+print(f"tv_quarto está ligada? {tv_quarto.ligada}")
 
 for _ in range(3):
     tv_sala.aumentar_volume()
 
-print('tv_sala volume: {}'.format(tv_sala.volume))
-print('tv_quarto volume: {}'.format(tv_quarto.volume))
+print(f"tv_sala volume: {v_sala.volume}")
+print(f"tv_quarto volume: {tv_quarto.volume}")
 
-'''
+"""
 Imprimir o conteúdo do objeto
-'''
-print('tv_sala', tv_sala)
-print('tv_quarto', tv_quarto)
+"""
+print("tv_sala", tv_sala)
+print("tv_quarto", tv_quarto)

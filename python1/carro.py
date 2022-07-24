@@ -6,7 +6,7 @@ import sys
 if sys.version_info[0] < 3:
     raise Exception("This script must run in Python 3.9.10.")
 
-'''
+"""
 Challenge 1
 - Crie uma classe que modele o objeto Carro
 - Um carro deve ter os seguintes atributos: ligado, cor, modelo, velocidade
@@ -14,7 +14,7 @@ Challenge 1
 - Crie uma intância da classe carro
 - Faça o carro andar utilizando os metodos da classe
 - Faça o carro parar utilizando os metodos da classe
-'''
+"""
 
 class Carro:
     """Classe que modela ao objeto Carro."""
@@ -36,14 +36,14 @@ class Carro:
     def acelerar(self):
         if self.ligado:
             self.velocidade += 10
-            print("Carro acelerando para {} km/h".format(self.velocidade))
+            print(f"Carro acelerando para {self.velocidade} km/h")
         else:
             print("Carro desligado")
 
     def desacelerar(self):
         if self.ligado:
             self.velocidade -= 10
-            print("Carro desacelerando para {} km/h".format(self.velocidade))
+            print(f"Carro desacelerando para {self.velocidade} km/h")
         else:
             print("Carro desligado")
 
@@ -51,15 +51,15 @@ class Carro:
         return f"Carro: - ligado {self.ligado} - cor {self.cor} - modelo {self.modelo} - velocidade {self.velocidade} km/h"
 
 
-'''
+"""
 Criando instancias da classe Carro
-'''
+"""
 carro_eliza = Carro()
 
 carro_eliza.ligar()
 carro_eliza.acelerar()
-print('carro_eliza andando: {}'.format(carro_eliza))
+print(f"carro_eliza andando: {carro_eliza}")
 
 carro_eliza.desacelerar()
 carro_eliza.desligar()
-print('carro_eliza parou: {}'.format(carro_eliza))
+print(f"carro_eliza parou: {carro_eliza}")

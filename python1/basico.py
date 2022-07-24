@@ -19,15 +19,15 @@ print('Divisão: x = {}'.format(x/y))
 # Pilha
 - O último a entrar é o primeiro a sair
 '''
-pilha = [1, 1, 2, 3, 5, 13] #13 é o último a entrar
-pilha.pop() #é o primeiro a sair
+pilha = [1, 1, 2, 3, 5, 13]     # 13 é o último a entrar
+pilha.pop()                     # portanto, é o primeiro a sair
 
 '''
 # Fila
 - O primeiro a entrar é o primeiro a sair
 '''
 fila = [1, 1, 2, 3, 5]
-fila.pop(0) #primeiro a sair
+fila.pop(0)                     # primeiro a sair
 
 '''
 ## Tupla

@@ -8,6 +8,7 @@ Challenge 1
 - Faça o carro parar utilizando os metodos da classe
 '''
 
+
 class Carro:
 
     def __init__(self):

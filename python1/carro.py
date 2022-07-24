@@ -17,6 +17,7 @@ Challenge 1
 '''
 
 class Carro:
+    """Classe que modela ao objeto Carro."""
 
     def __init__(self):
         self.ligado = False

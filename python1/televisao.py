@@ -7,6 +7,7 @@ if sys.version_info[0] < 3:
     raise Exception("This script must run in Python 3.9.10.")
 
 class Televisao:
+    """Classe que modela ao objeto Televisao."""
 
     def __init__(self):
         self.ligada = False

@@ -89,7 +89,7 @@ print(f"tv_quarto está ligada? {tv_quarto.ligada}")
 for _ in range(3):
     tv_sala.aumentar_volume()
 
-print(f"tv_sala volume: {v_sala.volume}")
+print(f"tv_sala volume: {tv_sala.volume}")
 print(f"tv_quarto volume: {tv_quarto.volume}")
 
 """

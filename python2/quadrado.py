@@ -26,7 +26,7 @@ class Quadrado:
         print('Getter da largura')
         return self.__medida
 
-    @largura.setter 
+    @largura.setter
     def largura(self, valor):
         print('Setter de largura')
         if valor < 0:
@@ -35,6 +35,7 @@ class Quadrado:
 
     def area(self):
         return self.largura * self.altura
+
 
 quadrado = Quadrado(2)
 print(quadrado.area())

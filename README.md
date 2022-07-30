@@ -13,6 +13,7 @@ Anotações das aulas da mentoria de python backend da [WoMakersCode](https://wo
       - [1. Objetos](#1-objetos)
       - [2. Classes](#2-classes)
     - [3. 🎯 Challenge #1](#3--challenge-1)
+  - [A2 - Encapsulamento](#a2---encapsulamento)
   - [📃 Licença](#-licença)
   - [🙇‍♀️ Obrigada](#️-obrigada)
 
@@ -76,6 +77,16 @@ Modelando um estacionamento:
     - Moto: placa
 
 > *Veja o resultado no arquivo 📁[carro.py](https://github.com/elizaespinoza/instruct-the-women-2022/blob/master/python1/carro.py).*
+
+## A2 - Encapsulamento
+
+- 1 underline: protegido `_`
+- 2 underlines: privado `__`
+- getter e setters:
+  - métodos de acceso e modificacao
+  - garantem que vamos conseguir ocultar esses dados
+  - evita o acesso a um campo ou classe
+  - se usa a propiedade `@property` para modificar eles
 
 ## 📃 Licença
 

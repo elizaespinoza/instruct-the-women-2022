@@ -11,6 +11,7 @@ class Pessoa:
     def __str__(self) -> str:
         return f'Nome: {self._nome}, Profissao: {self.profissao}, Identidade: {self.__identidade}'
 
+
 # Cria objeto pessoa1
 pessoa1 = Pessoa('Ana', 'Programadora', '123456')
 

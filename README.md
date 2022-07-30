@@ -14,6 +14,7 @@ Anotações das aulas da mentoria de python backend da [WoMakersCode](https://wo
       - [2. Classes](#2-classes)
     - [3. 🎯 Challenge #1](#3--challenge-1)
   - [A2 - Encapsulamento](#a2---encapsulamento)
+  - [A2 - Herança](#a2---herança)
   - [📃 Licença](#-licença)
   - [🙇‍♀️ Obrigada](#️-obrigada)
 
@@ -87,6 +88,13 @@ Modelando um estacionamento:
   - garantem que vamos conseguir ocultar esses dados
   - evita o acesso a um campo ou classe
   - se usa a propiedade `@property` para modificar eles
+
+## A2 - Herança
+
+- Herdar métodos e propiedades de outra classe
+- Permite reutilizar código
+- Permite criar novas funcionalidades sem modificar a classe existente
+- Todas as classes que herdan ganham automáticamente as propriedades e métodos da classe pai
 
 ## 📃 Licença
 

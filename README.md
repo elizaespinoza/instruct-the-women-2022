@@ -89,12 +89,16 @@ Modelando um estacionamento:
   - evita o acesso a um campo ou classe
   - se usa a propiedade `@property` para modificar eles
 
+> *Aplicammos o aprendido no arquivo 📁[pessoaE.py](https://github.com/elizaespinoza/instruct-the-women-2022/blob/master/python2/pessoaE.py).*
+
 ## A2 - Herança
 
 - Herdar métodos e propiedades de outra classe
 - Permite reutilizar código
 - Permite criar novas funcionalidades sem modificar a classe existente
 - Todas as classes que herdan ganham automáticamente as propriedades e métodos da classe pai
+
+> *Aplicammos o aprendido no arquivo 📁[pessoaH.py](https://github.com/elizaespinoza/instruct-the-women-2022/blob/master/python2/pessoaH.py).*
 
 ## 📃 Licença
 

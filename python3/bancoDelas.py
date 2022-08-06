@@ -23,10 +23,11 @@ class Cliente:
 #        self.limite = 0
 #        self.limite_cheque_especial = 0
 
+
 class Conta(Cliente):
 
-    def __init__(self, nome, telefone, renda_mensal,sexo):
-        super().__init__(nome, telefone, renda_mensal,sexo)
+    def __init__(self, nome, telefone, renda_mensal, sexo):
+        super().__init__(nome, telefone, renda_mensal, sexo)
         #self.titular = nome
         self.saldo = 0
         self.operacoes = []
@@ -39,38 +40,41 @@ class Conta(Cliente):
     def extrato(self):
         print("Extrato")
         for operacao in self.operacoes:
-            print(operacao[0],":",operacao[1])
-        print("Saldo:",self.saldo)
-        print("Limite:",self.limite if self.cheque_especial else self.limite_cheque_especial)
+            print(operacao[0], ":", operacao[1])
+        print("Saldo:", self.saldo)
+        print(
+            "Limite:", self.limite if self.cheque_especial else self.limite_cheque_especial)
 
-    def depositar(self,valor):
+    def depositar(self, valor):
         self.saldo += valor
-        self.operacoes.append(["Deposito",valor])
+        self.operacoes.append(["Deposito", valor])
 
-    def sacar(self,valor):
+    def sacar(self, valor):
         if self.saldo >= valor:
             self.saldo -= valor
-            self.operacoes.append(["Saque",valor])
+            self.operacoes.append(["Saque", valor])
         else:
             print("Saldo insuficiente")
 
-    def transferir(self,valor,conta_destino):
+    def transferir(self, valor, conta_destino):
         if self.saldo >= valor:
             self.saldo -= valor
             conta_destino.saldo += valor
-            self.operacoes.append(["Transferencia",valor])
-            conta_destino.operacoes.append(["Transferencia",valor])
+            self.operacoes.append(["Transferencia", valor])
+            conta_destino.operacoes.append(["Transferencia", valor])
         else:
             print("Saldo insuficiente")
 
     def verificar_limite(self):
-        print("Limite:",self.limite if self.cheque_especial else self.limite_cheque_especial)
+        print(
+            "Limite:", self.limite if self.cheque_especial else self.limite_cheque_especial)
 
-    def definir_limite_por_sexo(self,valor):
+    def definir_limite_por_sexo(self, valor):
         self.limite = valor if self.sexo == "M" else 0
         self.limite = self.limite_cheque_especial if self.cheque_especial else self.limite
 
     def __str__(self) -> str:
         return super().__str__() + "\nSaldo: " + str(self.saldo) + "\nLimite: " + str(self.limite if self.cheque_especial else self.limite_cheque_especial)
+
 
 bianca = Conta("Bianca", "9999-9999", 1000, "F")

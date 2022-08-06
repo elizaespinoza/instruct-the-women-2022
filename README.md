@@ -114,6 +114,8 @@ Modelando um estacionamento:
 - Herda características e modifica
 - Pode ser implementado em funções
 
+> *Aplicammos o aprendido no arquivo 📁[animal.py](https://github.com/elizaespinoza/instruct-the-women-2022/blob/master/python2/animal.py)*
+
 ## 📃 Licença
 
 Este projeto é disponibilizado com a licença MIT. Revise o arquivo [LICENSE](https://github.com/elizaespinoza/instruct-the-women-2022/blob/master/license) para ver os direitos e as limitações da licença.

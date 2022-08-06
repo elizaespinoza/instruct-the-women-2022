@@ -15,6 +15,8 @@ Anotações das aulas da mentoria de python backend da [WoMakersCode](https://wo
     - [3. 🎯 Challenge #1](#3--challenge-1)
   - [A2 - Encapsulamento](#a2---encapsulamento)
   - [A2 - Herança](#a2---herança)
+    - [Mixins](#mixins)
+  - [A3 - Polimorfismo](#a3---polimorfismo)
   - [📃 Licença](#-licença)
   - [🙇‍♀️ Obrigada](#️-obrigada)
 
@@ -77,7 +79,7 @@ Modelando um estacionamento:
     - Carro: placa
     - Moto: placa
 
-> *Veja o resultado no arquivo 📁[carro.py](https://github.com/elizaespinoza/instruct-the-women-2022/blob/master/python1/carro.py).*
+> *Veja o resultado no arquivo 📁[carro.py](https://github.com/elizaespinoza/instruct-the-women-2022/blob/master/python1/carro.py)*
 
 ## A2 - Encapsulamento
 
@@ -89,7 +91,7 @@ Modelando um estacionamento:
   - evita o acesso a um campo ou classe
   - se usa a propiedade `@property` para modificar eles
 
-> *Aplicammos o aprendido no arquivo 📁[pessoaE.py](https://github.com/elizaespinoza/instruct-the-women-2022/blob/master/python2/pessoaE.py).*
+> *Aplicammos o aprendido no arquivo 📁[pessoaE.py](https://github.com/elizaespinoza/instruct-the-women-2022/blob/master/python2/pessoaE.py)*
 
 ## A2 - Herança
 
@@ -98,7 +100,19 @@ Modelando um estacionamento:
 - Permite criar novas funcionalidades sem modificar a classe existente
 - Todas as classes que herdan ganham automáticamente as propriedades e métodos da classe pai
 
-> *Aplicammos o aprendido no arquivo 📁[pessoaH.py](https://github.com/elizaespinoza/instruct-the-women-2022/blob/master/python2/pessoaH.py).*
+> *Aplicammos o aprendido no arquivo 📁[pessoaH.py](https://github.com/elizaespinoza/instruct-the-women-2022/blob/master/python2/pessoaH.py)*
+
+### Mixins
+
+- Conhecido como herança múltipla
+- Pode herdar múltiplas classes
+
+> *Aplicammos o aprendido no arquivo 📁[logando.py](https://github.com/elizaespinoza/instruct-the-women-2022/blob/master/python2/logando.py)*
+
+## A3 - Polimorfismo
+
+- Herda características e modifica
+- Pode ser implementado em funções
 
 ## 📃 Licença
 

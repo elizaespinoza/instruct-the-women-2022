@@ -1,0 +1,13 @@
+# Byte-compiled / optimized / DLL files
+python3\fastAPI\primeira_api\__pycache__
+
+# pyenv
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
+# .python-version
+python3\fastAPI\primeira_api\Scripts
+python3\fastAPI\primeira_api\Include
+python3\fastAPI\primeira_api\Lib
+
+# Environments
+python3/fastAPI/primeira_api/pyvenv.cfg

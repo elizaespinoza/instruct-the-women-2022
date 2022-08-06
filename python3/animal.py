@@ -14,6 +14,7 @@ class Animal:
     def emitir_som(self):
         print("...")
 
+
 class Cachorro(Animal):
     def __init__(self):
         self.__numero_patas = 4
@@ -30,6 +31,7 @@ class Cachorro(Animal):
     def fazer_truque(self):
         print("Sento e deito")
 
+
 class Gato(Animal):
     def __init__(self):
         self.__numero_patas = 4
@@ -45,6 +47,7 @@ class Gato(Animal):
 
     def emitir_som(self):
         print("Miau")
+
 
 class Calopsita(Animal):
     def __init__(self):
@@ -65,6 +68,7 @@ class Calopsita(Animal):
     def voar(self):
         print("Estou voando")
 
+
 def processar_animal(animal: Animal):
     print(f'Este animal tem {animal.numero_patas} patas')
     print(f'Este animal tem assas? {animal.tem_asas}')
@@ -74,6 +78,7 @@ def processar_animal(animal: Animal):
         animal.fazer_truque()
     if isinstance(animal, Calopsita):
         animal.voar()
+
 
 cachorro = Cachorro()
 gato = Gato()
